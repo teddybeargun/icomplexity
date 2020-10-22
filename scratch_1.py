@@ -1,3 +1,6 @@
+## does not have equivalent for different r commands like gsub and ifelse so keeps it as such
+## thinks there are too many brackets or paraenthesis a lot and just removes them
+
 dataset[['tgk.txt']].V3 = gsub('^ ', '', dataset[['tgk.txt']] . V3)
 dataset[['xcl.txt']].V3 = gsub(
     'ADJ/GEN', 'ADJ;GEN', dataset[['xcl.txt']] . V3, fixed=T)
